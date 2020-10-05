@@ -36,7 +36,7 @@ setup(name='human_body_prior',
       description='Variational human pose prior for human pose synthesis and estimation.',
       long_description=open("README.md").read(),
       long_description_content_type="text/markdown",
-      install_requires=['torch', 'torchgeometry==0.1.2', 'configer>=1.4',
+      install_requires=['torch', 'torchgeometry==0.1.2',
                         'configer', 'imageio>=2.5.0', 'transforms3d>=0.3.1', 'trimesh',
                         'smplx', 'moviepy'],
       dependency_links=[
